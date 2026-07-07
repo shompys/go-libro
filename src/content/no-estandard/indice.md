@@ -9,6 +9,7 @@ Librerías de terceros documentadas en español con el mismo formato.
 | Librería | Qué hace |
 |----------|----------|
 | [go-pdf/fpdf](/no-estandard/go-pdf-fpdf) | Generación de documentos PDF |
+| [a-h/templ](/no-estandard/templ) | Templates HTML con type-safety para Go |
 
 ---
 
