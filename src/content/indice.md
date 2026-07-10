@@ -24,6 +24,7 @@ Documentación completa en español de las librerías estándar y de terceros.
 | [log](/estandard/log) | Logging simple |
 | [math](/estandard/math) | Funciones matemáticas básicas |
 | [math/rand](/estandard/math-rand) | Números pseudoaleatorios |
+| [math/rand/v2](/estandard/math-rand-v2) | Números pseudoaleatorios moderno (Go 1.22+) |
 | [math/big](/estandard/math-big) | Números de precisión arbitraria |
 | [math/bits](/estandard/math-bits) | Manipulación de bits |
 | [math/cmplx](/estandard/math-cmplx) | Números complejos |
@@ -37,6 +38,7 @@ Documentación completa en español de las librerías estándar y de terceros.
 | [bufio](/estandard/bufio) | I/O con buffer |
 | [bytes](/estandard/bytes) | Operaciones con slices de bytes |
 | [path/filepath](/estandard/path-filepath) | Manipulación de rutas de archivos |
+| [path](/estandard/path) | Manipulación de paths URL |
 | [io/fs](/estandard/io-fs) | Interfaz de sistema de archivos (Go 1.16+) |
 | [embed](/estandard/embed) | Incrustar archivos en el binario |
 | [encoding/json](/estandard/encoding-json) | Codificar/decodificar JSON |
@@ -130,6 +132,9 @@ Documentación completa en español de las librerías estándar y de terceros.
 |---------|----------|
 | [sort](/estandard/sort) | Ordenar slices |
 | [slices](/estandard/slices) | Funciones genéricas para slices (Go 1.21+) |
+| [maps](/estandard/maps) | Funciones genéricas para maps (Go 1.21+) |
+| [cmp](/estandard/cmp) | Comparación de tipos ordenados (Go 1.21+) |
+| [iter](/estandard/iter) | Iteradores Seq y Seq2 (Go 1.23+) |
 | [container/list](/estandard/container-list) | Lista doblemente enlazada |
 | [container/heap](/estandard/container-heap) | Heap (montículo) |
 | [container/ring](/estandard/container-ring) | Lista circular |
@@ -268,6 +273,7 @@ Documentación completa en español de las librerías estándar y de terceros.
 | [testing/quick](/estandard/testing-quick) | Testing basado en propiedades |
 | [runtime/trace](/estandard/runtime-trace) | Tracing de ejecución |
 | [runtime/metrics](/estandard/runtime-metrics) | Métricas del runtime |
+| [unique](/estandard/unique) | Valores canónicos (Go 1.23+) |
 
 ---
 
@@ -280,7 +286,7 @@ Documentación completa en español de las librerías estándar y de terceros.
 
 ---
 
-**Total: 139 paquetes documentados**  
+**Total: 145 paquetes documentados**  
 **Fuente oficial:** [pkg.go.dev/std](https://pkg.go.dev/std)
 
 ---
